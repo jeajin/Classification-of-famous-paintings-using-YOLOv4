@@ -2,4 +2,4 @@
 2. 훈련
 python train.py --img 416 --batch 128 --epochs 1 --data /home/hadoop/simulator/deepTerm/dataset/data.yaml --cfg  ./models/yolov5s.yaml --weights yolov5s.pt --name t
 3.탐지
- python detect.py --source ../4.mp4  --weights ./runs/train/drawMmB16E100/weights/best.pt 
+ python detect.py --source ../4.mp4  --weights ./runs/train/drawMmB16E100/weights/best.pt    
